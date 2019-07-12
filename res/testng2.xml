@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite2">
+	<test name="测试登录">
+		<classes>
+			<class name="com.ui.web.maventest.LoginPar" />
+		</classes>
+	</test>
+	<test name="test_interface">
+		<classes>
+			<class name="com.ui.web.maventest.TestInterface" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>
